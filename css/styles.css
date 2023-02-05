@@ -6,9 +6,9 @@ body{
 .container-fluid{
     background-color: white;
 
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     padding-left: 20px;
 
     margin-top: 10px;
@@ -16,9 +16,10 @@ body{
     margin-right: 5px;
     margin-left: 5px;
 
-    border: 1px solid #bfbfbf;
+    border: 1px solid #bfbffb;
     border-radius: 10px;
 }
+
 h2{
     color: #0a66c2ff;
     text-decoration-line: underline;
@@ -28,4 +29,22 @@ h2{
 article{
     font-family: Arial, Helvetica, sans-serif;
     color: #5b5b5b;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5b5b5b;
+}
+.card-footer {
+    background-color:#0a66c2ff);
+    color:white;/*no funciona en fuente*/
+}
+/* ver por que no funciona*/
+.text-muted {
+    background-color:#0a66c2ff);
+    color:white;
+}
+
+small {
+    color: white;
 }
